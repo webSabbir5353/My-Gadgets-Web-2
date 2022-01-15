@@ -64,7 +64,7 @@ a{
     width:440;
     position: relative;
     animation: sliding 1s ease-in-out 0.5s infinite alternate;
-    animation-play-state: running;
+    
 }
 .preebook{
     color: white;
