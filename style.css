@@ -6,6 +6,10 @@ body{
     align-items: center;
     color: rgb(87, 90, 92);
 }
+.head a{
+    color:rgb(87, 90, 92) ;
+    text-decoration: none;
+}
 #home{
     margin-left: 40%;
 }
@@ -14,13 +18,9 @@ body{
     font-weight: 900;
     margin-left: 200px;
 }
-p{
+a{
     font-size: 20px;
     font-weight: bold;
-    margin-left: 30px;
-}
-.fas{
-    font-size: 30px;
     margin-left: 30px;
 }
 /* first-part */
@@ -32,7 +32,7 @@ p{
 .welcome{
     font-family: Verdana, Geneva, Tahoma, sans-serif ;
     font-size:40px;
-    font-weight:800px ;
+    font-weight:900;
     margin-left: 80px;
 }
 .para{
@@ -50,13 +50,17 @@ p{
     height:414px ;
     width:440;
 }
-.button{
+.preebook{
     color: white;
-    background-color: rgb(182, 8, 130);
+    background-color: #E02C6D;
     margin-left: 80px;
-    padding: 10px 20px;
+    padding: 12px 20px;
     border-radius: 25px;
-    width:25%;
+    width:22%;
+}
+.preebook .fas{
+    font-size: 18px;
+    margin-left: 5px;
 }
 /* secound part */
 .container{
@@ -104,6 +108,15 @@ p{
     width: 300px;
     height: 256px;
 }
+.see{
+    font-size: 20px;
+    color: #E02C6D;
+    margin-left: 85%;  
+} 
+.see .fas{
+    font-size: 18px;
+    margin-left: 5px;
+}
 /* my-gadgets */
 .my-gadget{
     display: flex;
@@ -113,31 +126,44 @@ p{
 }
 .my-gadget img{
     width: 50%;
-    width: 600px;
-    height: 400px;
+    width: 550px;
+    height: 350px;
     padding-left: 200px;
     padding-top: 10%;
     padding-bottom: 10%;
 }
 .book{
-    font-size: 50px;
+    font-size: 40px;
+    font-weight: 900;
     margin-top: 100px;
-    margin-bottom: 100px;
     padding-left: 5%; 
 }
 .book1{
     padding-left: 5%;  
     padding-right: 15%;
 }
+.order{
+    color: white;
+    background-color: #E02C6D;
+    margin-left: 50px;
+    padding: 12px 20px;
+    border-radius: 25px;
+    width:10%;
+}
+.order .fas{
+    font-size: 18px;
+    margin-left: 5px;
+}
 /* footer */
 footer{
-    padding: 2%;
-    background-color: rgb(58, 58, 207);
+    padding: 1%;
+    background-color: rgb(17, 17, 66);
     color: white;
     text-align: center;
 }
 .foot-head p{
     font-size: 30px;
+    font-weight: 900;
 }
 .fab{
 margin-left: 10px;
