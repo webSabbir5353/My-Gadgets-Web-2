@@ -24,7 +24,7 @@ p{
     margin-left: 30px;
 }
 /* first-part */
-section{
+.part1{
     display: flex;
     margin-bottom: 10px;
     color: rgb(87, 90, 92);
@@ -59,17 +59,33 @@ section{
     width:25%;
 }
 /* secound part */
-
+.container{
+    display: flex;
+    justify-content: center;
+}
+.products-list{
+   width: 1040px;
+   padding: 2%;
+   padding-left:60px;
+   padding-top: 0;
+   background-color: thistle;
+   align-items: center;
+}
 .title p{
     font-size: 40px;
     font-weight: 900;
     text-align: center;
 }
+.main-list{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
 .list{
     width:320px;
     background-color: rgb(243, 201, 201);
-    padding: 1%;
-    padding-right: 0;
+    margin-top: 20px;
+    padding-left:20px;
+    padding-top: 20px;
 }
 .fa-star.filled{
     color: rgb(255, 115, 0);
@@ -87,6 +103,45 @@ section{
 .list img{
     width: 300px;
     height: 256px;
+}
+/* my-gadgets */
+.my-gadget{
+    display: flex;
+}
+.fature{
+    width: 50%;
+}
+.my-gadget img{
+    width: 50%;
+    width: 600px;
+    height: 400px;
+    padding-left: 200px;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+.book{
+    font-size: 50px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding-left: 5%; 
+}
+.book1{
+    padding-left: 5%;  
+    padding-right: 15%;
+}
+/* footer */
+footer{
+    padding: 2%;
+    background-color: rgb(58, 58, 207);
+    color: white;
+    text-align: center;
+}
+.foot-head p{
+    font-size: 30px;
+}
+.fab{
+margin-left: 10px;
+font-size: 20px;
 }
 
 
