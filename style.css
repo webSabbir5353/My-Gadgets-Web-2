@@ -1,6 +1,14 @@
 body{
     font-family: 'Merriweather Sans', sans-serif;
 }
+@keyframes sliding{
+    0%{
+        left: 0;
+    }
+    100%{
+        left: 50px;
+    }
+}
 .head {
     display: flex;
     align-items: center;
@@ -45,11 +53,18 @@ a{
     padding-top: 5%;
 }
 .first img{
+    background-color: white;
+    width: 500px;
+}
+.first img{
     width: 60%;
     padding-left: 40%;
     padding-bottom:15%;
     height:414px ;
     width:440;
+    position: relative;
+    animation: sliding 1s ease-in-out 0.5s infinite alternate;
+    animation-play-state: running;
 }
 .preebook{
     color: white;
